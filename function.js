@@ -36,3 +36,15 @@ function factorial(Num2){
 }
 
 console.log(factorial(5));
+
+function sumArray(Number3){
+    let sum = 0;
+    for (let i = 0; i < Number3.length; i++) {
+      sum+=Number3[i]
+        
+    }
+    return sum;
+}
+
+console.log(sumArray([1,2,3,4,5,6]));
+
